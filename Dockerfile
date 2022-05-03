@@ -32,9 +32,9 @@ RUN yum -y install rpm centos-release dnf-plugins-core \
       sssd-common \
       hostname \
       libyaml-devel \
-      python3 \
-      python3-pip \
-      python3-pyyaml \
+      python39 \
+      python39-pip \
+      python39-pyyaml \
  && yum clean all
 
 # Upgrade pip to latest version.
