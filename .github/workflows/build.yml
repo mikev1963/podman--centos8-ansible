@@ -28,6 +28,7 @@ jobs:
         run: docker exec --tty test-container env TERM=xterm ansible --version
 
   # If on master branch, build and release image.
+  #
   release:
     name: Release
     runs-on: ubuntu-latest
