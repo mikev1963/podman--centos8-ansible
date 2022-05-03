@@ -28,6 +28,8 @@ RUN yum -y install rpm centos-release dnf-plugins-core \
       initscripts \
       sudo \
       which \
+      nscd \
+      sssd-common \
       hostname \
       libyaml-devel \
       python3 \
